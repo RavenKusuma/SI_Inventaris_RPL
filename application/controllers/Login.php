@@ -5,9 +5,7 @@ class Login extends CI_Controller {
 
   public function index()
   {
-    $this->load->view('v_header');
-    $this->load->view('home/v_login');
-    $this->load->view('v_footer');
+    $this->load->view('Home/v_login');
   }
 
   public function logindata()

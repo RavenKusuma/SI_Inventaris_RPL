@@ -101,7 +101,7 @@
                     </div>
                     <div class="col-sm-6 col-xs-6 no-padding">
                         <div class="single_register">
-                            <a href="">Register</a>
+                            <a href="register">Register</a>
                         </div>
                     </div>
                 </div>
