@@ -96,7 +96,7 @@
                 <div class="row text-center">
                     <div class="col-sm-6 col-xs-6 no-padding">
                         <div class="single_register single_login">
-                            <a href="">Login</a>
+                            <a href="login">Login
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-6 no-padding">
