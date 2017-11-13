@@ -38,6 +38,10 @@ button:hover {
     text-align: center;
     margin: 24px 0 12px 0;
 }
+img.avatar {
+    width: 10%;
+    border-radius: 50%;
+}
 .container {
     padding: 16px;
 }
@@ -61,6 +65,10 @@ span.psw {
 <h2>Sistem Inventaris RPL</h2>
 
 <form action="/action_page.php">
+  <div class="imgcontainer">
+    <img src="assets/images/team1.jpg" alt="Avatar" class="avatar">
+  </div>
+
   <div class="container">
     <label><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
