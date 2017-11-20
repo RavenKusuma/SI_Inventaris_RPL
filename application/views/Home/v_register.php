@@ -62,11 +62,16 @@ span.psw {
 
 <form action="/action_page.php">
   <div class="container">
-    <label><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
-
+    <label><b>Nama</b></label>
+    <input type="text" placeholder="Enter nama" name="nama" required>
+    <label><b>NRP</b></label>
+    <input type="text" placeholder="Enter NRP" name="nrp" required>
     <label><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
+    <label><b>No Telepon</b></label>
+    <input type="text" placeholder="Enter no_tlp" name="no_tlp" required>
+    <label><b>Alamat</b></label>
+    <input type="text" placeholder="Enter alamat" name="alamat" required>
         
     <button type="submit">Register</button>
   </div>

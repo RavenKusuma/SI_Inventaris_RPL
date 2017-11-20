@@ -8,13 +8,18 @@ class Login extends CI_Controller {
     $this->load->view('Home/v_login');
   }
 
-  public function logindata()
+  public function lxogin()
 	{
-		$data = array('username' => $this->input->post('username'),
-									'password' => $this->input->post('password'),
+    //return "hehe";
+		$data = array('username' => $this->input->post('uname'),
+									'password' => $this->input->post('psw'),
 	 								);
-    $cek = $this->login_m->check_data($data);
-
+    $this->load->model('Cek');
+    $x=$this->Cek->check_data($data);
+    //print_r($cek);
+    //print_r($data);
+    echo $x=0;
+    return "h";
     if ($cek->num_rows() == 0) {
         $this->session->set_flashdata('message', 'data tidak ditemukan, silahkan coba lagi');
         redirect('Login');

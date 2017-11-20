@@ -63,12 +63,10 @@ span.psw {
 <body>
 
 <h2>Sistem Inventaris RPL</h2>
-
-<form action="/action_page.php">
+<form action="<?php echo site_url('Login/lxogin') ?>" method="post">
   <div class="imgcontainer">
     <img src="assets/images/team1.jpg" alt="Avatar" class="avatar">
   </div>
-
   <div class="container">
     <label><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
