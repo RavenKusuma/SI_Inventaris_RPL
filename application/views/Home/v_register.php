@@ -60,7 +60,7 @@ span.psw {
 
 <h2>Sistem Inventaris RPL</h2>
 
-<form action="/action_page.php">
+<form action="<?php echo site_url('Register/registerdata') ?>" method="post">
   <div class="container">
     <label><b>Nama</b></label>
     <input type="text" placeholder="Enter nama" name="nama" required>

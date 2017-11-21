@@ -11,5 +11,12 @@ class Cek extends CI_Model
 		echo "bisa";
 		return 0;
 	}
+	public function insert_data($data)
+	{
+		$this->db->insert('user',$data);
+		//print_r($data);
+		return 1;
+		
+	}
 }
 ?>
